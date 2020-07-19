@@ -29,4 +29,4 @@ try:
             print(f"현재 전송 횟수 : {i}")
             sleep(int(value["send"]["interval"]))
 except ImportError as error:
-    print("json, sys, DiscordWebhook, 이 셋중 한가지 모듈이 설치되어있지 않습니다.\n\npy -m pip install <모듈명> 을 입력하여 설치할 수 있습니다.\n오류 : {}".format(error))
+    print("discord-webhook 모듈이 설치되어있지 않습니다.\n\npy -m pip install <모듈명> 을 입력하여 설치할 수 있습니다.\n오류 : {}".format(error))
