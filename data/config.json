@@ -1,0 +1,13 @@
+{
+	"embed": {
+		"title": "",
+		"description": "",
+		"thumbnail": "",
+		"footer": "",
+		"username": ""
+	},
+	"send": {
+		"msg": "",
+		"interval": ""
+	}
+}
